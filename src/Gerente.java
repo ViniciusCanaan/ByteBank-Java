@@ -21,6 +21,7 @@ public class Gerente extends Funcionario {
 	
 	public double getBonificacao() {
 		//Super é porque estou pegando da class mãe, em vez de usar o this, usar o super nesses casos
+		System.out.println("Chamando o metodo de bonificacao do GERENTE");
 		return super.getBonificacao() + super.getSalario();
 				
 	}
